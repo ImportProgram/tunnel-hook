@@ -9,7 +9,7 @@ services:
     environment:
       URL: ""
       PORT: 8000
-      DOCKER: true
+      DOCKER: "true"
     restart: always
     extra_hosts:
       - "host.docker.internal:host-gateway"
